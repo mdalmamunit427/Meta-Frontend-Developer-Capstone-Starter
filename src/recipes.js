@@ -1,5 +1,5 @@
 const recipes = [
-    { 
+    {
       id: 1,
       title: "Greek salad",
       price: 12.99,
@@ -23,9 +23,7 @@ const recipes = [
       description:
         "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.",
     },
-  
+
   ];
-  
+
   export default recipes;
-  
-  

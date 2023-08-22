@@ -9,7 +9,7 @@ const toggleMenu = () =>{
 }
 
   return (
-<nav className={'navbar ${menuOpen ? "open" : ""}'}>
+<nav className={`navbar ${menuOpen ? "open" : ""}`}>
 <a href='/' className='logo'>
     <img src={logo} alt='logo'/>
 </a>
@@ -22,7 +22,7 @@ const toggleMenu = () =>{
 </div>
 
 {/*nav items*/}
-<ul className={'nav-links ${menuOpen ? "visible" : ""}'}>
+<ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
     <li>
 <a href='/'>Home</a>
     </li>
